@@ -32,3 +32,12 @@ Log in to your own account
 - docker push silvio69luiz/shopfront:latest
 - docker push silvio69luiz/productcatalogue:latest
 - docker push silvio69luiz/stockmanager:latest
+
+4 - step deploy to kubernetes
+= start minikube
+= use the tool kubectl to manager
+- kubectl apply -f productcatalogue-service.yaml
+- shopfront-service.yaml
+- stockmanager-service.yaml
+= kubectl deploy / svc / pods
+= overview - minikube sevice shopfront
