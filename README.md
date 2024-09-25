@@ -28,7 +28,7 @@ docker build -t  silvio69luiz/stockmanager:latest .
 3 - step login to docker
 https://hub.docker.com/
 Log in to your own account
-- docker push to repository docker
-docker push silvio69luiz/shotfront:latest
-docker push silvio69luiz/productcatalogue:latest
-docker push silvio69luiz/stockmanager:latest
+= docker push to repository docker
+- docker push silvio69luiz/shotfront:latest
+- docker push silvio69luiz/productcatalogue:latest
+- docker push silvio69luiz/stockmanager:latest
