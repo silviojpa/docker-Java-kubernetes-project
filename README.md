@@ -15,7 +15,7 @@ git clone from repository
 
 mvn clean install
 - crear the folder 'target'
-docker build -t  silvio69luiz/shotfront:latest .
+docker build -t  silvio69luiz/shopfront:latest .
 
 mvn clean install
 - crear the folder 'target'
@@ -29,6 +29,6 @@ docker build -t  silvio69luiz/stockmanager:latest .
 https://hub.docker.com/
 Log in to your own account
 = docker push to repository docker
-- docker push silvio69luiz/shotfront:latest
+- docker push silvio69luiz/shopfront:latest
 - docker push silvio69luiz/productcatalogue:latest
 - docker push silvio69luiz/stockmanager:latest
